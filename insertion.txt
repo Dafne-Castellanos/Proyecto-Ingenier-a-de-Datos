@@ -1,0 +1,77 @@
+-- INSERTION
+
+-- BOROUGH
+insert into BOROUGH values
+	('BRONX', 1472654, 109.3),
+	('BROOKLYN', 2736074, 179.7),
+	('MANHATTAN', 1694257, 58.68),
+	('QUEENS', 2405464, 281.6),
+	('STATEN ISLAND', 495747, 148.9);
+	
+-- COLLISION
+COPY collision
+FROM 'C:\dataDB\collision.csv'
+WITH DELIMITER ';'
+CSV HEADER;
+
+-- PERSON_TYPE
+COPY person_type
+FROM 'C:\dataDB\person_type.csv'
+WITH DELIMITER ';'
+CSV HEADER;
+
+--SEX
+COPY sex
+FROM 'C:\dataDB\person_sex.csv'
+WITH DELIMITER ';'
+CSV HEADER;
+
+-- INJURY
+COPY injury
+FROM 'C:\dataDB\person_injury.csv'
+WITH DELIMITER ';'
+CSV HEADER;
+
+-- PERSON
+COPY PERSON
+FROM 'C:\dataDB\person.csv'
+WITH DELIMITER ';'
+CSV HEADER;
+
+-- INVOLVE
+COPY INVOLVE
+FROM 'C:\dataDB\involve.csv'
+WITH DELIMITER ';'
+CSV HEADER;
+
+-- VEHICLE_TYPE
+COPY VEHICLE_TYPE
+FROM 'C:\dataDB\vehicle_type.csv'
+WITH DELIMITER ';'
+CSV HEADER;
+
+-- DAMAGE
+COPY DAMAGE
+FROM 'C:\dataDB\vehicle_damage.csv'
+WITH DELIMITER ';'
+CSV HEADER;
+
+-- VEHICLE
+COPY VEHICLE
+FROM 'C:\dataDB\vehicle.csv'
+WITH DELIMITER ';'
+CSV HEADER;
+
+-- PARTICIPATE
+COPY PARTICIPATE
+FROM 'C:\dataDB\participate.csv'
+WITH DELIMITER ';'
+CSV HEADER;
+
+-- CRASH
+COPY CRASH
+FROM 'C:\dataDB\crash_2.csv'
+WITH DELIMITER ';'
+CSV HEADER;
+
+
