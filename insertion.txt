@@ -40,7 +40,7 @@ CSV HEADER;
 
 -- INVOLVE
 COPY INVOLVE
-FROM 'C:\dataDB\involve.csv'
+FROM 'C:\dataDB\involve_3.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
@@ -58,13 +58,13 @@ CSV HEADER;
 
 -- VEHICLE
 COPY VEHICLE
-FROM 'C:\dataDB\vehicle.csv'
+FROM 'C:\dataDB\vehicle_2.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
 -- PARTICIPATE
 COPY PARTICIPATE
-FROM 'C:\dataDB\participate.csv'
+FROM 'C:\dataDB\participate_2.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
