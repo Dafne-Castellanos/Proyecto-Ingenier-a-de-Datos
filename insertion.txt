@@ -34,7 +34,7 @@ CSV HEADER;
 
 -- PERSON
 COPY PERSON
-FROM 'C:\dataDB\person.csv'
+FROM 'C:\dataDB\person_2.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
