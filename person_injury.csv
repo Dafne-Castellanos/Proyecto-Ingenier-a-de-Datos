@@ -1,4 +1,4 @@
-"person_injury_id";"person_injury"
-"PI01";"Unspecified"
-"PI02";"Injured"
-"PI03";"Killed"
+"person_injury_id","person_injury"
+"PI01","Unspecified"
+"PI02","Injured"
+"PI03","Killed"
