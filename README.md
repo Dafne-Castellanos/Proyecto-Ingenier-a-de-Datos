@@ -1,4 +1,4 @@
-# Proyecto-Ingenier-a-de-Datos
+# Proyecto-Ingeniería-de-Datos
 Proyecto final - Ingeniería de Datos
 
 Integrantes: Alejandra Contreras, Sebastián Plazas y Dafne Castellanos
