@@ -21,9 +21,9 @@ try:
          limit 10;"""     
     sql5 = """select person_injury
          from injury;"""   
-    #sql6 = """select collision_id, person_unique_id
-    #     from involve
-    #     limit 10;"""
+    sql6 = """select collision_id, person_unique_id
+         from involve
+         limit 10;"""
     #sql7 = """select collision_id, person_unique_id, vehicle_unique_id
     #     from participate
     #     limit 10;"""
@@ -81,13 +81,13 @@ try:
         print(injury [0])
         injury = cursor5.fetchone()
     #CONSULTAR INVOLVE
-    """cursor6 = conexion.cursor() 
+    cursor6 = conexion.cursor() 
     cursor6.execute(sql6) 
     involve = cursor6.fetchone() 
     print("****INVOLVE****")
     while involve:
         print(involve [0])
-        involve = cursor6.fetchone()"""
+        involve = cursor6.fetchone()
     #CONSULTAR PARTICIPATE
     """cursor7 = conexion.cursor() 
     cursor7.execute(sql7) 
@@ -146,7 +146,7 @@ finally:
     cursor3.close()
     cursor4.close()
     cursor5.close()
-    #cursor6.close()
+    cursor6.close()
     #cursor7.close()
     cursor8.close()
     cursor9.close()
