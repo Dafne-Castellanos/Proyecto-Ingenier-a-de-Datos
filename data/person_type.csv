@@ -1,0 +1,5 @@
+"Person_Type_Id";"Person_Type"
+"PT01";"Occupant"
+"PT02";"Pedestrian"
+"PT03";"Bicyclist"
+"PT04";"Other Motorized"
