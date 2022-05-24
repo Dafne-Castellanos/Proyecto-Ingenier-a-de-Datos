@@ -155,7 +155,7 @@ con = Connection()
 con.openConnection()
 query = pd.read_sql_query(sql.BronxByArea(), con.connection)
 con.closeConnection()
-dfBronxByA = pd.dataframe(query, columns=["borough", "accidentality"]
+dfBronxByA = pd.dataframe(query, columns=["borough", "accidentality"])
 #Grafico de mapa
 figMapBronxByA = px.choroplet(dfcases, locations="borough", color = "accidentality", color_continous_scale="aggrnyl")
 
