@@ -7,7 +7,7 @@ class Connection:
     
     def openConnection(self):
         try:
-            self.connection = psycopg2.connect(user="usuairio",
+            self.connection = psycopg2.connect(user="usuario",
                                                password="clave",
                                                database="collision_db",
                                                host="localhost", 
