@@ -10,67 +10,67 @@ insert into BOROUGH values
 	
 -- COLLISION
 COPY collision
-FROM 'C:\dataBD\collision.csv'
+FROM 'C:\data2\collision.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
 
 -- PERSON_TYPE
 COPY person_type
-FROM 'C:\dataBD\person_type.csv'
+FROM 'C:\data2\person_type.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
 --SEX
 COPY sex
-FROM 'C:\dataBD\person_sex.csv'
+FROM 'C:\data2\person_sex.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
 -- INJURY
 COPY injury
-FROM 'C:\dataBD\person_injury.csv'
+FROM 'C:\data2\person_injury.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
 -- PERSON
 COPY PERSON
-FROM 'C:\dataBD\person.csv'
+FROM 'C:\data2\person.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
 -- INVOLVE
-COPY INVOLVE FROM 'C:\dataBD\involve.csv'
+COPY INVOLVE FROM 'C:\data2\involve.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
 -- VEHICLE_TYPE
 COPY VEHICLE_TYPE
-FROM 'C:\dataBD\vehicle_type.csv'
+FROM 'C:\data2\vehicle_type.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
 -- DAMAGE
 COPY DAMAGE
-FROM 'C:\dataBD\vehicle_damage.csv'
+FROM 'C:\data2\vehicle_damage.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
 -- VEHICLE
 COPY VEHICLE
-FROM 'C:\dataBD\vehicle.csv'
+FROM 'C:\data2\vehicle.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
 -- PARTICIPATE
 COPY PARTICIPATE
-FROM 'C:\dataBD\participate.csv'
+FROM 'C:\data2\participate.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
 -- CRASH
 COPY CRASH
-FROM 'C:\dataBD\crash.csv'
+FROM 'C:\data2\crash.csv'
 WITH DELIMITER ';'
 CSV HEADER;
 
