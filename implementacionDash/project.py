@@ -829,7 +829,7 @@ app.layout = html.Div(children=[
 # FIN DE STATEN ISLAND -----------------------
 
 # escenario2
-html.H2(children='2. Tasas de accidentalidad por Distritos', style={'color': 'blue', 'text-align':'center', 'padding-bottom': '30px'}),
+html.H2(children='2. Tasas de accidentalidad por Distrito', style={'color': 'blue', 'text-align':'center', 'padding-bottom': '30px'}),
     html.H3(children='Tasa de accidentatidad por población de los distritos de Nueva York'),
         html.Div(className="row", children=[
             # Col for vertical bars

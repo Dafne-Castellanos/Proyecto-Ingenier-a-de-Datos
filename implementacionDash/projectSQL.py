@@ -165,11 +165,11 @@ GROUP BY pt.person_type
 ORDER BY cantidad_personas DESC;"""
 
 def sexPerson():
-    return """SELECT s.person_sex as sexo_persona, count(s.person_sex) as cantidad_personas
-FROM person p INNER JOIN sex s ON (p.person_sex_id = s.person_sex_id)
+    return """SELECT s.sex as sexo_persona, count(s.sex) as cantidad_personas
+FROM person p INNER JOIN sex s ON (p.person_sex_id = s.sex_id)
 INNER JOIN involve i ON (p.person_unique_id = i.person_unique_id)
 INNER JOIN collision c ON (i.collision_id = c.collision_id)
-GROUP BY s.person_sex
+GROUP BY s.sex
 ORDER BY cantidad_personas DESC;"""
 
 
