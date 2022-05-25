@@ -45,7 +45,7 @@ create table SEX
 (
 	person_sex_id varchar(6) not null,
 	person_sex varchar,
-	primary key (sex_id)
+	primary key (person_sex_id)
 );
 
 
