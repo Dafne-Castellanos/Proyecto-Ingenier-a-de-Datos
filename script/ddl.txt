@@ -43,8 +43,8 @@ create table INJURY
 -- SEX
 create table SEX
 (
-	sex_id varchar(6) not null,
-	sex varchar,
+	person_sex_id varchar(6) not null,
+	person_sex varchar,
 	primary key (sex_id)
 );
 
