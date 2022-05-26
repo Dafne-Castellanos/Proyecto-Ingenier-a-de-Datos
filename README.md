@@ -7,6 +7,7 @@ Universidad del Rosario
 Este proyecto analiza los accidentes de vehículos en la ciudad de Nueva York mediante los modelos Entidad relación y relacional, SQL, Phyton y Dash.
 
 La documentación que te proporcionara una guía a traves de los distintos archivos y te dara a conocer todo lo que necesitas saber del proyecto se encuentra en el siguiente enlace: https://uredu-my.sharepoint.com/:b:/g/personal/dafne_castellanos_urosario_edu_co/EZRS8FhyqtZDkZTTZgcU984BKj9IjP77Wc3tZPaN4FpGTQ?e=Olgmgw
+
 Asimismo, puedes visualizar datos importantes del proyecto en la siguiente presentación: https://view.genial.ly/628eaca4e24beb00180ae22e/presentation-presentacion-metropolis
 
 
